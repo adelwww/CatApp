@@ -57,7 +57,9 @@ class MainActivity : AppCompatActivity() {
                             return false
                         }
 
-                    }).into(binding.imageCat)
+                    })
+                    .error(R.drawable.error_cat)
+                    .into(binding.imageCat)
         }
     }
 }
